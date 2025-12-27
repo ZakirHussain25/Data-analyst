@@ -1,0 +1,10 @@
+Excel workbook
+
+count(=count) To count the numbers
+sum(=sum) To sum the numbers
+counta(=counta) TO count the members
+match(select data ,table name[row name],0)
+index(table name[select data row name],match(select data, table name[row name],0))
+=xlookup(DATA, table name[same data], table name) for all data of one person
+=xlookup(DATA, table name[same data], table name[select data row name]) for selecting one data of person
+=xlookup(DATA, table name[same data], table name[select data row name], "not found") if data not found show this "not found"
